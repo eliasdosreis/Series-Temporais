@@ -8,3 +8,6 @@ install.packages('seasonalview')
 myts =rnorm(60)
 myts = ts(myts, start = c(2012,1),c(2016,12), frequency = 12)
 myts
+class(myts)
+
+plot(myts)
